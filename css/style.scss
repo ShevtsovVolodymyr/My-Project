@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.calc-page {
+    margin-top: 5%;
+    &__title {
+        margin: 1em;
+    }
+    &__launch-btn {
+        margin-top: 1em;
+    }
+    &__result {
+        padding-top: 5%;
+        &>div {
+            height: 200px;
+            width: 200px;
+            margin: 10px 10px;
+            padding: 5% 5%;
+            border-radius: 50%;
+            background-color: green;
+            &>:nth-child(1) {
+                text-transform: capitalize;
+                font-size: 1.2rem;
+                font-weight: 500;
+            }
+            &>:nth-child(2) {
+                font-weight: 800;
+                font-size: 2rem;
+                color: darkred;
+            }
+        }
+    }
+}
